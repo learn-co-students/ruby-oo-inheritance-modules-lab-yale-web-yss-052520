@@ -269,7 +269,7 @@ In `artist.rb` we have:
 This is pretty similar, although not exactly the same. However, it is
 repetitious enough to be giving off a code smell. In order to refactor it,
 however, we first have to get rid of any code that is specific to the class. In
-this case, we need to abstract away the literal reference to the `@@songs` and
+this case, we need to abstract away the literal reference to the `@@songs` andN
 `@@artists` class variables.
 
 #### Abstracting Away Repetition
